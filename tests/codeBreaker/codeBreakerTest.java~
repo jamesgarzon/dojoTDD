@@ -16,7 +16,7 @@ public class codeBreakerTest {
 	@Test
 	public void unoCoincide() {
 		resultado = breaker.comparar("9234", "1837");
-		assertEquals("Xv", resultado);
+		assertEquals("X", resultado);
 	}
 	
 	@Test
